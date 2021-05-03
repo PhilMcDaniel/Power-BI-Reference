@@ -1,0 +1,5 @@
+let
+    Source = DateTimeZone.FixedUtcNow(),
+    #"Extracted Date" = Date.From(Source)
+in
+    #"Extracted Date"
